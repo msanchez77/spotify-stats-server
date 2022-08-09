@@ -2,6 +2,7 @@ const spotifyRouter = require("express").Router();
 var querystring = require('querystring');
 var request = require('request'); // "Request" library
 require("dotenv").config();
+var cookieParser = require('cookie-parser')
 
 
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID; // Your client id
