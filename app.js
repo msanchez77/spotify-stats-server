@@ -4,7 +4,6 @@ const cookieParser = require('cookie-parser');
 const middleware = require("./utils/middleware");
 const spotifyRouter = require('./controllers/spotify');
 
-
 const app = express();
 
 app.use(cors());
